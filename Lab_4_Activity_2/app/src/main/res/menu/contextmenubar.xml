@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/pin"
+        android:icon="@drawable/pin"
+        android:title="Pin"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/touch"
+        android:icon="@drawable/touch"
+        android:title="Touch"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/color_lens"
+        android:icon="@drawable/color_lens"
+        android:title="Color Lens"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/labeled"
+        android:icon="@drawable/label"
+        android:title="Labels"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/op1"
+        android:title="Option-1"/>
+    <item
+        android:id="@+id/op2"
+        android:title="Option-2"/>
+    <item
+        android:id="@+id/op3"
+        android:title="Option-3"/>
+</menu>

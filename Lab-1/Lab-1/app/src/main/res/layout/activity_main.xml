@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#30877E"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:fontFamily="sans-serif-black"
+        android:paddingStart="80dp"
+        android:paddingTop="40dp"
+        android:text="@string/lab_1_tasks"
+        android:textSize="48sp"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/task_1"
+        android:layout_width="300dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:onClick="openTask_1"
+        android:text="@string/task_1"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/task_2"
+        android:layout_width="300dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:onClick="openTask_2"
+        android:text="Task-2"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/task_3"
+        android:layout_width="300dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:onClick="openTask_3"
+        android:text="Task-3" />
+</LinearLayout>

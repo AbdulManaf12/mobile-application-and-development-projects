@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practice</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="media_player">Media Player</string>
+    <string name="previous">Previous</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="next">Next</string>
+    <string name="play">Play</string>
+    <string name="pause" />
+    <string name="widgets">Widgets</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab-1</string>
+    <string name="lab_1_tasks">Lab-1 Tasks</string>
+    <string name="task_1">Task-1</string>
+    <string name="task_2">Task-2</string>
+    <string name="task_3">Task-3</string>
+</resources>

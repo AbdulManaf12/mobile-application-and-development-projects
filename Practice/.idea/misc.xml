@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Practice/Programming Languages/Android Projects/Practice/app/src/main/res/drawable-anydpi/pause.xml" value="0.1" />
+        <entry key="..\:/Practice/Programming Languages/Android Projects/Practice/app/src/main/res/drawable-anydpi/play.xml" value="0.1685" />
+        <entry key="..\:/Practice/Programming Languages/Android Projects/Practice/app/src/main/res/drawable/play.xml" value="0.1685" />
+        <entry key="..\:/Practice/Programming Languages/Android Projects/Practice/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Practice/Programming Languages/Android Projects/Practice/app/src/main/res/layout/activity_media_player.xml" value="0.22" />
+        <entry key="..\:/Practice/Programming Languages/Android Projects/Practice/app/src/main/res/layout/activity_widgets.xml" value="0.22" />
+        <entry key="..\:/Practice/Programming Languages/Android Projects/Practice/app/src/main/res/menu/mainmenu.xml" value="0.1" />
+        <entry key="..\:/Practice/Programming Languages/Android Projects/Practice/app/src/main/res/menu/pause.xml" value="0.22447916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

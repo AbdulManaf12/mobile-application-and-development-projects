@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#3BFF2400"
+    android:orientation="vertical"
+    tools:context=".Task_2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/task_2"
+        android:textSize="34sp"
+        android:layout_gravity="center"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="00:06"
+        android:textSize="28sp"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        app:columnCount="4"
+        app:rowCount="6">
+
+        <ImageView
+            android:id="@+id/r0c0"
+            android:layout_width="57dp"
+            android:layout_height="85dp"
+            app:layout_column="0"
+            app:layout_row="0"
+            tools:srcCompat="@drawable/question_mark" />
+
+        <ImageView
+            android:id="@+id/r0c1"
+            android:layout_width="57dp"
+            android:layout_height="85dp"
+            app:layout_column="1"
+            app:layout_row="0"
+            tools:srcCompat="@drawable/question_mark" />
+
+        <ImageView
+            android:id="@+id/r0c2"
+            android:layout_width="57dp"
+            android:layout_height="85dp"
+            app:layout_column="2"
+            app:layout_row="0"
+            tools:srcCompat="@drawable/question_mark" />
+
+        <ImageView
+            android:id="@+id/r0c3"
+            android:layout_width="57dp"
+            android:layout_height="85dp"
+            app:layout_column="3"
+            app:layout_row="0"
+            tools:srcCompat="@drawable/question_mark" />
+
+
+    </GridLayout>
+</LinearLayout>

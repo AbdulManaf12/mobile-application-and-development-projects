@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/play"
+        android:icon="@drawable/play"
+        app:showAsAction="always"
+        android:title="Play" />
+
+    <item
+        android:id="@+id/speak"
+        android:icon="@drawable/speak"
+        app:showAsAction="always"
+        android:title="" />
+
+    <item
+        android:id="@+id/search"
+        android:title="Search" />
+    <item
+        android:id="@+id/upload"
+        android:title="Upload" />
+    <item
+        android:id="@+id/copy"
+        android:title="Copy " />
+    <item
+        android:id="@+id/print"
+        android:title="Print" />
+    <item
+        android:id="@+id/share"
+        android:title="Share" />
+    <item
+        android:id="@+id/bookmark"
+        android:title="BookMark" />
+
+</menu>

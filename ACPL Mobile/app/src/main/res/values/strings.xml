@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ACPL Mobile</string>
+    <string name="home">HOME</string>
+    <string name="logout">LOGOUT</string>
+    <string name="acpl_mobile">ACPL Mobile</string>
+    <string name="username_or_email">username or email</string>
+</resources>
