@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Exam Practice</string>
+    <string name="widgets">Widgets</string>
+    <string name="mid_term_exam_practice">Mid-Term Exam Practice</string>
+    <string name="widgets_TITLE">WIDGETS</string>
+    <string name="demo_txt">The android. widget. Button is subclass of TextView class and CompoundButton is the subclass of Button class. There are different types of buttons in android such as RadioButton, ToggleButton, CompoundButton etc.</string>
+    <string name="txt">enter some value</string>
 </resources>
