@@ -53,6 +53,39 @@
 <!--        -->
 <!--        android:src="@drawable/phone"/>-->
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Plain" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bold" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serf" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Italic" />
+    </LinearLayout>
+
+
+    <Switch
+        android:id="@+id/swtch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="NO"
+        android:textOn="YES"
+        android:showText="true"
+        android:layout_gravity="center"/>
 
 
 </LinearLayout>

@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Practice/Programming Languages/Android Projects/ExamPractice/app/src/main/res/layout/activity_layout_practice.xml" value="0.22447916666666667" />
         <entry key="..\:/Practice/Programming Languages/Android Projects/ExamPractice/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Practice/Programming Languages/Android Projects/ExamPractice/app/src/main/res/layout/activity_widgets_practice.xml" value="0.1" />
+        <entry key="..\:/Practice/Programming Languages/Android Projects/ExamPractice/app/src/main/res/layout/activity_widgets_practice.xml" value="0.25" />
       </map>
     </option>
   </component>
@@ -13,12 +14,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.33" />
-      </ProjectState>
-    </option>
   </component>
 </project>
