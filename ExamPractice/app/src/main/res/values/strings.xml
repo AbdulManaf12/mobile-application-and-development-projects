@@ -6,4 +6,5 @@
     <string name="demo_txt">The android. widget. Button is subclass of TextView class and CompoundButton is the subclass of Button class. There are different types of buttons in android such as RadioButton, ToggleButton, CompoundButton etc.</string>
     <string name="txt">enter some value</string>
     <string name="activity_lifecycle">Activity LifeCycle</string>
+    <string name="sqlite_database">SQLite Database</string>
 </resources>

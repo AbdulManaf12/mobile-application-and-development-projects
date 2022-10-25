@@ -15,7 +15,7 @@ class SQLiteDatabaseExample : AppCompatActivity() {
         database = openOrCreateDatabase("Manaf", MODE_PRIVATE, null)
 //        createTable()
 //        insertValues(1, "Abdul Manaf", "03003141736")
-        showData()
+//        showData()
     }
 
     private fun createTable() {
