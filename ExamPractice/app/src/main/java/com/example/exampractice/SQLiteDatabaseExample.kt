@@ -4,6 +4,7 @@ import android.database.sqlite.SQLiteDatabase
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import java.util.*
 
 class SQLiteDatabaseExample : AppCompatActivity() {
 
@@ -16,6 +17,7 @@ class SQLiteDatabaseExample : AppCompatActivity() {
 //        createTable()
 //        insertValues(1, "Abdul Manaf", "03003141736")
 //        showData()
+//        importDatabase()
     }
 
     private fun createTable() {
@@ -46,6 +48,17 @@ class SQLiteDatabaseExample : AppCompatActivity() {
             cr.close()
         }else{
             Toast.makeText(this, "Empty Database", Toast.LENGTH_LONG).show()
+        }
+    }
+    private fun importDatabase(){
+        val scan : Scanner = Scanner(resources.openRawResource(R.raw.Student))
+        var query : String = "";
+        while (scan.hasNextLine()) {
+            query += scan.nextLine() + "\n";
+            if (query.trim().endsWith(";")) {
+                database.execSQL(query);
+                query = "";
+            }
         }
     }
 }

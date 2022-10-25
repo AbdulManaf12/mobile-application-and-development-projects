@@ -17,6 +17,9 @@
         android:theme="@style/Theme.ExamPractice"
         tools:targetApi="31">
         <activity
+            android:name=".FragmentExample"
+            android:exported="false" />
+        <activity
             android:name=".SQLiteDatabaseExample"
             android:exported="false" />
         <activity

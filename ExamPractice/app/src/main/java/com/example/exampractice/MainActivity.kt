@@ -57,4 +57,8 @@ class MainActivity : AppCompatActivity()
     fun openSqLiteDatabase(view: View){
         startActivity(Intent(this, SQLiteDatabaseExample::class.java))
     }
+
+    fun openFragments(view: View){
+        startActivity(Intent(this, FragmentExample::class.java))
+    }
 }
