@@ -23,4 +23,19 @@
         android:layout_gravity="center"
         android:onClick="gotoWidgets"/>
 
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:text="Layouts"
+        android:layout_gravity="center"
+        android:onClick="gotoLayouts"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:text="Activity LifeCycle"
+        android:layout_gravity="center"
+        android:onClick="gotoActivityLifeCycle"/>
 </LinearLayout>
