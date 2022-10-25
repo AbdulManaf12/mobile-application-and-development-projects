@@ -46,4 +46,12 @@
         android:text="Open Camera"
         android:layout_gravity="center"
         android:onClick="openCamera"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:text="Filing &amp; Adapter"
+        android:layout_gravity="center"
+        android:onClick="openFilingAndAdapter"/>
 </LinearLayout>

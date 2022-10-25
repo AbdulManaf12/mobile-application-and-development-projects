@@ -41,4 +41,8 @@ class MainActivity : AppCompatActivity()
     fun openCamera(view: View){
         startActivity(Intent(MediaStore.ACTION_IMAGE_CAPTURE))
     }
+
+    fun openFilingAndAdapter(view: View){
+        startActivity(Intent(this, FilingAndAdapterExample::class.java))
+    }
 }

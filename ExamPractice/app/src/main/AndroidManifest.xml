@@ -14,9 +14,12 @@
         android:theme="@style/Theme.ExamPractice"
         tools:targetApi="31">
         <activity
+            android:name=".FilingAndAdapterExample"
+            android:exported="false" />
+        <activity
             android:name=".ActivityLifeCycleExample"
-            android:parentActivityName=".WidgetsPractice"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".WidgetsPractice">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.exampractice.WidgetsPractice" />
