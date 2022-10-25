@@ -45,4 +45,8 @@ class MainActivity : AppCompatActivity()
     fun openFilingAndAdapter(view: View){
         startActivity(Intent(this, FilingAndAdapterExample::class.java))
     }
+
+    fun openMediaPlayer(view: View){
+        startActivity(Intent(this, MediaPlayer::class.java))
+    }
 }

@@ -43,4 +43,18 @@
         android:layout_gravity="center"
         android:textSize="30sp"
         android:layout_margin="15dp" />
+
+    <Button
+        android:id="@+id/load_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Data"
+        android:layout_gravity="center"
+        android:onClick="loadData"/>
+
+    <ListView
+        android:id="@+id/friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 </LinearLayout>
