@@ -49,4 +49,8 @@ class MainActivity : AppCompatActivity()
     fun openMediaPlayer(view: View){
         startActivity(Intent(this, MediaPlayer::class.java))
     }
+
+    fun openMenu(view: View){
+        startActivity(Intent(this, MenuExample::class.java))
+    }
 }
