@@ -14,7 +14,7 @@ class ActivityLifeCycleExample : AppCompatActivity()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_life_cycle_example)
-
+        actionBar?.setDisplayShowHomeEnabled(true)
         text = findViewById(R.id.activity_steps)
         text.text = text.text.toString() + "\nonCreate called ....!"
         println("\nonCreate called ....!")
