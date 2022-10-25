@@ -28,7 +28,7 @@ class SQLiteDatabaseExample : AppCompatActivity() {
 
     fun insertValues(id : Int, name : String, contact : String){
         if (database.isOpen){
-            val insertValue : String = "INSERT INTO Student values(${id}, ${name}, ${contact});"
+            val insertValue : String = "INSERT INTO Student values(${id}, '${name}', '${contact}');"
             database.execSQL(insertValue)
             Toast.makeText(this, "Successfully Values inserted ... !", Toast.LENGTH_LONG).show()
         }
@@ -36,8 +36,7 @@ class SQLiteDatabaseExample : AppCompatActivity() {
     private fun showData(){
         val showCommand : String = "SELECT * FROM Student"
         val cr = database.rawQuery(showCommand, null)
-        Toast.makeText(this, cr.count, Toast.LENGTH_LONG).show()
-        if (cr.isFirst && cr.moveToFirst()) {
+        if (cr.moveToFirst()) {
             do
             {
                 val id = cr.getInt(0)
@@ -45,6 +44,8 @@ class SQLiteDatabaseExample : AppCompatActivity() {
                 Toast.makeText(this, "ID: ${id} : Name: ${name}", Toast.LENGTH_LONG).show()
             }while (cr.moveToNext())
             cr.close()
+        }else{
+            Toast.makeText(this, "Empty Database", Toast.LENGTH_LONG).show()
         }
     }
 }
