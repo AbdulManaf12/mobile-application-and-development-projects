@@ -53,4 +53,8 @@ class MainActivity : AppCompatActivity()
     fun openMenu(view: View){
         startActivity(Intent(this, MenuExample::class.java))
     }
+
+    fun openSqLiteDatabase(view: View){
+        startActivity(Intent(this, SQLiteDatabaseExample::class.java))
+    }
 }
