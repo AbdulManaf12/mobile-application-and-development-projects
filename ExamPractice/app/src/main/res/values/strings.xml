@@ -7,4 +7,6 @@
     <string name="txt">enter some value</string>
     <string name="activity_lifecycle">Activity LifeCycle</string>
     <string name="sqlite_database">SQLite Database</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

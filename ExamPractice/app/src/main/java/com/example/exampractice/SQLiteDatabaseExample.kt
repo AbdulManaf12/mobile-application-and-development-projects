@@ -51,14 +51,14 @@ class SQLiteDatabaseExample : AppCompatActivity() {
         }
     }
     private fun importDatabase(){
-        val scan : Scanner = Scanner(resources.openRawResource(R.raw.Student))
-        var query : String = "";
-        while (scan.hasNextLine()) {
-            query += scan.nextLine() + "\n";
-            if (query.trim().endsWith(";")) {
-                database.execSQL(query);
-                query = "";
-            }
-        }
+//        val scan : Scanner = Scanner(resources.openRawResource(R.raw.Student))
+//        var query : String = "";
+//        while (scan.hasNextLine()) {
+//            query += scan.nextLine() + "\n";
+//            if (query.trim().endsWith(";")) {
+//                database.execSQL(query);
+//                query = "";
+//            }
+//        }
     }
 }

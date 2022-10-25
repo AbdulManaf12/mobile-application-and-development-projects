@@ -10,9 +10,26 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/mid_term_exam_practice"
+        android:text="Fragments"
         android:layout_gravity="center"
         android:textSize="30sp"
         android:layout_margin="15dp" />
 
+
+    <fragment
+        android:id="@+id/fragA"
+        android:name="com.example.exampractice.BlankFragment"
+        tools:layout="@layout/fragment_blank"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"/>
+
+    <fragment
+        android:id="@+id/fragB"
+        android:name="com.example.exampractice.BlankFragment2"
+        tools:layout="@layout/fragment_blank2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="100dp"/>
 </LinearLayout>
