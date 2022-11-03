@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        this.writeAndRead()
+        this.writeAndRead()
         Toast.makeText(this, this.isExternalWritable().toString(), Toast.LENGTH_LONG).show()
     }
 

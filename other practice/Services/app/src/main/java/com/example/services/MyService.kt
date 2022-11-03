@@ -6,6 +6,7 @@ import android.os.IBinder
 import android.util.Log
 
 class MyService : Service() {
+
     override fun onBind(p0: Intent?): IBinder? = null
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {

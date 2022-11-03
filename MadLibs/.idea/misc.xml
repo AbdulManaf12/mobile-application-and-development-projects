@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Practice/Programming Languages/Android Projects/MadLibs/app/src/main/res/layout/activity_input_taker.xml" value="0.25" />
         <entry key="..\:/Practice/Programming Languages/Android Projects/MadLibs/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Practice/Programming Languages/Android Projects/MadLibs/app/src/main/res/layout/activity_result_story.xml" value="0.25" />
       </map>
     </option>
   </component>

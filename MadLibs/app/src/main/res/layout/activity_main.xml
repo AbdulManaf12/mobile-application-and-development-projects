@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp"
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_marginTop="40dp"
-        android:layout_height="300dp"
-        android:id="@+id/imgView"
-        android:src="@drawable/logo"/>
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/logo" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/story_text"
+        android:layout_width="385dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:text="@string/welcome_text"
         android:textSize="20sp"
-        android:text="Welcome to the MadLibs! I will ask you to fill in words to complete a story. You won't be able to see the whole story until you are donefilling in all the missing words. That's part of the fun. Click below to get started ..."/>
+        android:layout_gravity="center"/>
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="20dp"
-        android:onClick="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_started"
         android:layout_gravity="right"
-        android:id="@+id/startBtn"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:text="Get Started!"/>
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="30sp"
+        android:onClick="gotoAnotherActivity"/>
 </LinearLayout>

@@ -8,8 +8,8 @@ import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
 
-class CustomArrayAdapter(val c: Context, val resource: Int, val boxers: List<Boxer>):
-    ArrayAdapter<Boxer> (c, resource, boxers) {
+class CustomArrayAdapter(val c: Context, val resource: Int, val boxers: List<Boxer>): ArrayAdapter<Boxer> (c, resource, boxers)
+{
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         val layoutInflater: LayoutInflater = LayoutInflater.from(c)
         val view: View = layoutInflater.inflate(resource, null)
