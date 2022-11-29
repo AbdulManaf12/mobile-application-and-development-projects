@@ -22,5 +22,7 @@ class MainActivity : AppCompatActivity() {
         val pIntent : PendingIntent = PendingIntent.getActivity(this, 0,  intent, PendingIntent.FLAG_IMMUTABLE)
         alarmManager.set(AlarmManager.RTC, System.currentTimeMillis() + (5 * 1000), pIntent)
         Toast.makeText(this, "Wakeup", Toast.LENGTH_LONG).show()
+
+        
     }
 }
