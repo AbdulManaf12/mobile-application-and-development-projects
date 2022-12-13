@@ -88,7 +88,7 @@ class ProductBox extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Image.asset(image, height: 100, width: 100),
-                  Expanded(
+                  Expanded(  
                       child: Column(
                     children: [
                       Text(
