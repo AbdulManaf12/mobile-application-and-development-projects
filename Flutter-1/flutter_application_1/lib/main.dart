@@ -27,33 +27,10 @@ class MyHomePage extends StatelessWidget {
         body: Card(
             child: Column(children: const [
           ProductBox(
-              image: "lana_paul.jpeg",
-              name: "Lana Paul",
-              description: "Zabardast",
-              price: 1000),
-          ProductBox(
-              image: "jonny_bhai.jpg",
-              name: "Johny Sine",
-              description:
-                  "Steven Wolfe (born December 31, 1978), known professionally as Johnny Sins, is an American pornographic actor, director, and YouTuber.[1][2] Sins is known for his shaved head and muscular physique. He is consistently among the most popular male talent pornography searches",
-              price: 300),
-          ProductBox(
-              image: "lana.jpg",
-              name: "Lana Rohdes",
-              description:
-                  "American podcaster,[1] social-media personality,[2] and former pornographic film actress. Throughout her career she has appeared in publications such as Hustler, Penthouse, and Playboy",
-              price: 500),
-          ProductBox(
               image: "hasseb_bhai.jpg",
               name: "Muhammad Hasseb",
-              description:
-                  "My Favourite collegue i like his dick + pussy and one day i will touch his ass",
+              description: "My Favourite colleg will touch his ass",
               price: 200000),
-          ProductBox(
-              image: "alyx_star.jpg",
-              name: "Alyx Star",
-              description: "My Favourite PornStar I like her pussy",
-              price: 1000),
           ProductBox(
               image: "Manaf.jpg",
               name: "Abdul Manaf",
@@ -88,7 +65,7 @@ class ProductBox extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Image.asset(image, height: 100, width: 100),
-                  Expanded(  
+                  Expanded(
                       child: Column(
                     children: [
                       Text(
