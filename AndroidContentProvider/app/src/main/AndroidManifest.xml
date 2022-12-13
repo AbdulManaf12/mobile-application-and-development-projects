@@ -20,7 +20,8 @@
             android:name=".MyContentProvider"
             android:authorities="com.example.Manaf"
             android:enabled="true"
-            android:exported="true"></provider>
+            android:exported="true"
+            tools:ignore="MissingClass"></provider>
 
         <activity
             android:name=".MainActivity"

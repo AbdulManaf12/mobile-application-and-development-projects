@@ -2,7 +2,7 @@ package com.example.networkoperations
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+import android.widget.TextView
 import android.widget.Toast
 import java.io.BufferedReader
 import java.io.InputStreamReader
@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Thread(Runnable {
+        Thread {
             try {
                 // Step-1
                 val url_string: String = "https://www.tutorialspoint.com/json/data.json"
@@ -25,19 +25,21 @@ class MainActivity : AppCompatActivity() {
                 connection.connect()
                 // Step-4
                 val read = BufferedReader(InputStreamReader(connection.inputStream))
-                var line : String? = read.readLine()
-                var dataText: String = ""
+                var line: String? = read.readLine()
+                var dataText: String = "Data: "
                 while (line != null) {
                     dataText += line
                     line = read.readLine()
                 }
-                //Toast.makeText(this, dataText, Toast.LENGTH_LONG).show()
-                Log.d("Data: ", dataText)
                 // Step-5
                 connection.disconnect()
-            } catch (e: Exception) {
+                Toast.makeText(this, dataText, Toast.LENGTH_LONG).show()
+
+//                findViewById<TextView>(R.id.textview).text = dataText
+            }
+            catch (e: Exception) {
                 Toast.makeText(this, "Error", Toast.LENGTH_LONG).show()
             }
-        }).start()
+        }.start()
     }
 }
